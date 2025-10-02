@@ -12,16 +12,19 @@ I cannot guarantee that there are no unnecessary configs for this
 hardware.
 
 ## Feature
-- dm_crypt works
-- tpm works
-- btrfs/ext4/nfs works
+- [dm_crypt](https://www.kernel.org/doc/html/latest/admin-guide/device-mapper/dm-crypt.html) works
+- [tpm](https://www.kernel.org/doc/html/latest/security/tpm/index.html) works
+- [btrfs](https://en.wikipedia.org/wiki/Btrfs)/[ext4](https://en.wikipedia.org/wiki/Ext4)/[nfs](https://en.wikipedia.org/wiki/Network_File_System) works
+- [zram](https://docs.kernel.org/admin-guide/blockdev/zram.html) enabled
 - Every PCI/I2C devices for this hardware works fine
 - Every LEDs (power, keyboard, webcam ...) works fine
 - Bluetooth/USB HID works fine
-- docker and overlayfs works fine
-- wireguard works
-- nftables/wireshark works fine but most of xt_* filters are not enabled
-- KVM works but some features on libvirt might not work
+- [docker](https://www.docker.com/) and [overlayfs](https://en.wikipedia.org/wiki/OverlayFS) works fine
+- [wireguard](https://www.wireguard.com/) works
+- [nftables](https://nftables.org/)/[wireshark](https://www.wireshark.org/)
+  works fine but most of xt_* filters are not enabled
+- [KVM](https://linux-kvm.org/page/Main_Page) works but some features
+  on [libvirt](https://libvirt.org/) might not work
 
 I don’t know if anyone else will use this setup, but if any of these
 doesn’t work on the same hardware, I’d appreciate it if you could let
@@ -46,6 +49,15 @@ olddefconfig` before build the source.
 make modules_install
 make install
 ```
+
+For more information, see <https://wiki.gentoo.org/wiki/Kernel/Upgrade>.
+
+## Links
+
+- <https://wiki.gentoo.org/wiki/Kernel/Upgrade>
+- <https://wiki.gentoo.org/wiki/Kernel/Gentoo_Kernel_Configuration_Guide>
+- <https://www.kernel.org/doc/html/latest/kbuild/kconfig-language.html>
+- <https://www.kernelconfig.io/index.html>
 
 ## Hardware
 Result of `lspci`:
