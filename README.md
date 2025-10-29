@@ -25,6 +25,7 @@ hardware.
   works fine but most of xt_* filters are not enabled
 - [KVM](https://linux-kvm.org/page/Main_Page) works but some features
   on [libvirt](https://libvirt.org/) might not work
+- [waydroid](https://waydro.id/) works fine
 
 I don’t know if anyone else will use this setup, but if any of these
 doesn’t work on the same hardware, I’d appreciate it if you could let
