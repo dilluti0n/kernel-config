@@ -14,7 +14,7 @@ hardware.
 ## Feature
 - [dm_crypt](https://www.kernel.org/doc/html/latest/admin-guide/device-mapper/dm-crypt.html) works
 - [tpm](https://www.kernel.org/doc/html/latest/security/tpm/index.html) works
-- [btrfs](https://en.wikipedia.org/wiki/Btrfs)/[ext4](https://en.wikipedia.org/wiki/Ext4)/[nfs](https://en.wikipedia.org/wiki/Network_File_System) works
+- [btrfs](https://en.wikipedia.org/wiki/Btrfs)/[ext4](https://en.wikipedia.org/wiki/Ext4)/[nfs](https://en.wikipedia.org/wiki/Network_File_System)/ntfs/exfat works
 - [zram](https://docs.kernel.org/admin-guide/blockdev/zram.html) enabled
 - Every PCI/I2C devices for this hardware works fine
 - Every LEDs (power, keyboard, webcam ...) works fine
