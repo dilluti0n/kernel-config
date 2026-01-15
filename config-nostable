@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/x86 6.18.4-gentoo Kernel Configuration
+# Linux/x86 6.18.5-gentoo Kernel Configuration
 #
 CONFIG_CC_VERSION_TEXT="gcc (Gentoo 15.2.1_p20251122 p3) 15.2.1 20251122"
 CONFIG_CC_IS_GCC=y
@@ -3224,7 +3224,7 @@ CONFIG_TCG_CRB=y
 CONFIG_I2C=y
 CONFIG_ACPI_I2C_OPREGION=y
 CONFIG_I2C_BOARDINFO=y
-# CONFIG_I2C_CHARDEV is not set
+CONFIG_I2C_CHARDEV=m
 CONFIG_I2C_MUX=y
 
 #
